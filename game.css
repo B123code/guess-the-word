@@ -1,0 +1,85 @@
+body
+{
+	background: lightblue;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 60%;
+		height: 200px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.style_input {
+height: 40px;
+width: 200px;
+border-radius: 12px;
+}
+
+
+.nxt-btn_style {
+	border-radius: 12px;
+	background-color: #1100ff;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 300px;
+	transition: all 0.1s;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .nxt-btn_style span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.1s;
+  }
+  
+  .nxt-btn_style span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.1s;
+  }
+  
+  .nxt-btn_style:hover span {
+	padding-right: 25px;
+  }
+  
+  .nxt-btn_style:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
